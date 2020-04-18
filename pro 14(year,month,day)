@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int d=2535,year,month,day,a;
+    year=d/365;
+    printf("year=%d\n",year);
+    a=d%365;
+    month=a/30;
+    printf("month=%d\n",month);
+    day=a%30;
+    printf("day=%d",day);
+    return 0;
+}
