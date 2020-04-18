@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    float salary;
+    salary= 8000+((8000*20/100));
+    printf("salary = %0.0f",salary);
+    return 0;
+}
