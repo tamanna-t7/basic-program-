@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    float bangla,english,math,physics,chemistry,avg;
+
+    bangla=78;
+     english=81 ;
+     math=90;
+     physics=75;
+     chemistry=73;
+     avg=(bangla+english+math+physics+chemistry)/5;
+     printf("avg=%.1lf",avg);
+    return 0;
+}
