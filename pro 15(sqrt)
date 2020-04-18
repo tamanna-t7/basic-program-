@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+
+    double n=25,square,root;
+    square=pow(n,2);
+    root=sqrt(n);
+
+    printf("square=%.0lf\n",square);
+    printf("root=%.0lf",root);
+    return 0;
+}
