@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    double c,f,temp;
+    c=36.5;
+    f=((c*9/5)+32);
+    printf("temp=%0.1lf",f);
+    return 0;
+}
