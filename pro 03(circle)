@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    double pi=3.1416,r=6,perimeter,area;
+     perimeter=2*pi*r;
+     printf("perimeter of the circle is = %lf\n",perimeter);
+     area=pi*r*r;
+     printf("area of the circle is = %lf\n",area);
+    return 0;
+}
