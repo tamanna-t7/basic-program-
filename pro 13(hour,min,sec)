@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n=25300,hour,min,sec,r;
+    hour= n/3600;
+    printf("hour=%d\n",hour);
+    r=n%365;
+    min=r/60;
+    printf("min=%d\n",min);
+    sec=n%60;
+    printf("sec=%d\n",sec);
+    return 0;
+}
