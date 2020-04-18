@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    double height=7,width=5,area,perimeter;
+     perimeter=2*(7+5);
+     printf("perimeter of the rectangular is = %0.0lf\n",perimeter);
+     area=7*5;
+     printf("area of the rectangular is = %0.0lf\n",area);
+    return 0;
+}
