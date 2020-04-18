@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int potato,brinjal,total;
+    potato=30;
+    brinjal=20;
+    total=(3*30+2*20);
+    printf("total=%d",total);
+    return 0;
+}
