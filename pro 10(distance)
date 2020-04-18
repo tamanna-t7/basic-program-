@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int L=5,KL=350,distance;
+    distance=KL/L;
+    printf("distance=%dkm",distance);
+    return 0;
+}
