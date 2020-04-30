@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int rony= 10;
+    int jony= 5;
+    int N;
+    printf("rony=%dtk\n",rony);
+    printf("jony=%dtk\n",jony);
+    printf(" after swapping\n");
+    N=rony;
+    rony=jony;
+    jony=N;
+    printf("rony=%dtk\n",rony);
+    printf("jony=%dtk\n",jony);
+     return 0;
+}
