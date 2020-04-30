@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int n=1291,z1,result1,z2,result2,z3,result3,z4,result4,z5,result5,z6,result6,z7,result7;
+    result1=n/100;
+    printf("100 taka note=%d\n",result1);
+    z1=n%100;
+    result2=z1/50;
+    printf("50 taka note=%d\n",result2);
+    z2=n%50;
+    result3=z2/20;
+    printf("20 taka note=%d\n",result3);
+    z3=n%10;
+    result4=z3/10;
+    printf("10 taka note=%d\n",result4);
+    z4=n%5;
+    result5=z4/5;
+    printf("5 taka note=%d\n",result5);
+    z5=n%2;
+    result6=z5/2;
+    printf("2 taka note=%d\n",result6);
+    z6=n%2;
+    result7=z6/1;
+    printf("1 taka note=%d\n",result7);
+    return 0;
+}
