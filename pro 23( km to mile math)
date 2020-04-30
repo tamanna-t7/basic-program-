@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main ()
+{
+    float sum;
+    sum=(5*0.62);
+    printf("%.2f",sum);
+    return 0;
+}
