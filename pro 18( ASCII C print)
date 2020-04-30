@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int n=67;
+    printf("the ascii value is:%d\n",n=67 );
+    printf("the ascii character is:%c",n);
+    return 0;
+
+}
