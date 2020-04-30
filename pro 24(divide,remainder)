@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int n1,n2,div,rem;
+    n1=9;
+    printf("%d\n",n1);
+    n2=2;
+    printf("%d\n",n2);
+    div=n1/n2;
+    printf("div=%d\n",div);
+    rem=n1%n2;
+    printf("rem=%d",rem);
+    return 0;
+}
